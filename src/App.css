@@ -1,13 +1,11 @@
-.App {
-  text-align: center;
-}
-
+/*Takes care of all the styling of other components*/
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 20vmin;
 }
 
 .App-header {
+  text-align: center;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +20,7 @@
   color: #61dafb;
 }
 
+/* Spinning atom  */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -29,4 +28,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+form{
+  width:50%;
+  margin: auto;
+  
+}
+
+.choices {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.questions{
+  text-align: left;
+}
+
+.slide{
+  margin-bottom: 10em;
+  font-size:24pt;
+}
+
+img{
+  margin-bottom: 2em;
+}
+
+#submit{
+  font-size: 30pt;
+  background-color: #61dafb;
+  border-radius:15px;
+  padding: .5em;
+}
+
+.welcome{
+  width:80%;
 }
